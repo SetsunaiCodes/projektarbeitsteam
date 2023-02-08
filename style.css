@@ -35,6 +35,18 @@ nav ul li{
     position: relative;
 }
 
+.threept{
+    height: 30px;
+    width: 30px;
+    background-image: url(images/3pt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 0 0 20px;
+}
+.threept:hover{
+    background-image: url(images/3pthover.png);
+}
 .plus {
     height: 30px;
     width: 30px;
@@ -58,10 +70,11 @@ nav ul li a:hover{
 nav ul li ul{
     display: none;
     position: absolute;
-    background-color: #0d1937;
+    background-color: #0e1118;
     margin-top: 6px;
     padding: 7px;
-    border-radius: 12px;
+    border-radius: 6px;
+    font-size: 12px;
 }
 nav ul li:hover ul{
     display: block;
@@ -70,7 +83,7 @@ nav ul li:hover ul{
     flex-grow: 1;
     height: 50px;
     width: 110px;
-    background-image: url(images/Steam\ Dashboard.png);
+    background-image: url(images/header_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
