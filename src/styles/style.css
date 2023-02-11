@@ -38,19 +38,19 @@ nav ul li{
 .threept{
     height: 30px;
     width: 30px;
-    background-image: url(images/3pt.png);
+    background-image: url(../images/3pt.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin: 0 0 0 20px;
 }
 .threept:hover{
-    background-image: url(images/3pthover.png);
+    background-image: url(../images/3pthover.png);
 }
 .plus {
     height: 30px;
     width: 30px;
-    background-image: url(images/Plus.png);
+    background-image: url(../images/Plus.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -58,7 +58,7 @@ nav ul li{
 
 }
 .plus:hover{
-    background-image: url(images/Plushover.png);
+    background-image: url(../images/Plushover.png);
 }
 nav ul li a{
     color: #cccccc;
@@ -83,7 +83,7 @@ nav ul li:hover ul{
     flex-grow: 1;
     height: 50px;
     width: 110px;
-    background-image: url(images/header_logo.png);
+    background-image: url(../images/header_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -105,13 +105,13 @@ nav ul li:hover ul{
     margin: 8px;
 }
 .group {
-    background-image: url(images/681494.png);
+    background-image: url(../images/681494.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .shelf {
-    background-image: url(images/211-2110320_book-shelf-wall-books-on-a-shelf-icon.png);
+    background-image: url(../images/211-2110320_book-shelf-wall-books-on-a-shelf-icon.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -257,7 +257,7 @@ ion-icon{
     color: #fff;
 }
 .sekiro{
-    background-image: url(images/Sekiroimage.jpg);
+    background-image: url(../images/Sekiroimage.jpg);
     height: 129px;
     width: 229px;
     background-position: center;
@@ -272,7 +272,7 @@ ion-icon{
 }
 
 .eldenring{
-    background-image: url(images/EldenRingiamge.jpg);
+    background-image: url(../images/EldenRingiamge.jpg);
     height: 129px;
     width: 229px;
     background-position: center;
@@ -286,7 +286,7 @@ ion-icon{
     align-items: center;
 }
 .darksouls{
-    background-image: url(images/DarkSoulsimage.jpg);
+    background-image: url(../images/DarkSoulsimage.jpg);
     height: 129px;
     width: 229px;
     background-position: center;
@@ -318,7 +318,7 @@ ion-icon{
 .playbuttonicon{ 
     height: 20px;
     width: 20px;
-    background-image: url(images/Play-Button-PNG-Picture.png);
+    background-image: url(../images/Play-Button-PNG-Picture.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
