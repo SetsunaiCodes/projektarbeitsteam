@@ -1,262 +1,265 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #171A21;
-    color: #fff;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #171a21;
+  color: #fff;
+  margin: 0;
 }
 .boxing {
-    border: solid 2px red;
+  border: solid 2px red;
 }
-nav{
-    background-color: #171A21;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav {
+  background-color: #171a21;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  position: relative;
+}
 
+.threept {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/3pt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 0 0 20px;
 }
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav ul li{
-    list-style: none;
-    position: relative;
-}
-
-.threept{
-    height: 30px;
-    width: 30px;
-    background-image: url(../images/3pt.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0 0 0 20px;
-}
-.threept:hover{
-    background-image: url(../images/3pthover.png);
+.threept:hover {
+  background-image: url(../images/3pthover.png);
 }
 .plus {
-    height: 30px;
-    width: 30px;
-    background-image: url(../images/Plus.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-right: 160px;
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/Plus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 160px;
+}
+.plus:hover {
+  background-image: url(../images/Plushover.png);
+}
+nav ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #0e1118;
+  margin-top: 6px;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+nav ul li:hover ul {
+  display: block;
+}
+.steamlogo {
+  flex-grow: 1;
+  height: 50px;
+  width: 110px;
+  background-image: url(../images/header_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 10px;
+}
 
-}
-.plus:hover{
-    background-image: url(../images/Plushover.png);
-}
-nav ul li a{
-    color: #cccccc;
-    text-decoration: none;
-}
-nav ul li a:hover{
-    color: #fff;
-}
-nav ul li ul{
-    display: none;
-    position: absolute;
-    background-color: #0e1118;
-    margin-top: 6px;
-    padding: 7px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-nav ul li:hover ul{
-    display: block;
-}
-.steamlogo{
-    flex-grow: 1;
-    height: 50px;
-    width: 110px;
-    background-image: url(../images/header_logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-left: 10px;
-}
-
-.sortlayer{
-    height: 640px;
-    width: 100%;
-    margin: 0 1% 0 1%;
-    background-image: linear-gradient(to right, #3B6491 , #1B387E);
-    border-radius: 6px;
+.sortlayer {
+  height: 640px;
+  width: 100%;
+  margin: 0 1% 0 1%;
+  background-image: linear-gradient(to right, #3b6491, #1b387e);
+  border-radius: 6px;
 }
 .grid {
-    position: relative;
-  }
-  .item {
-    display: block;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-    z-index: 1;
-    text-align: center;
-    line-height: 150px;
-  }
-  .item.muuri-item-dragging {
-    z-index: 3;
-  }
-  .item.muuri-item-releasing {
-    z-index: 2;
-  }
-  .item.muuri-item-hidden {
-    z-index: 0;
-  }
-  .item-content {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: #96ceb4;
-    text-align: center;
-    font-size: 35px;
-  }
-
+  position: relative;
+}
+.item {
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  z-index: 1;
+  text-align: center;
+  line-height: 150px;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #96ceb4;
+  text-align: center;
+  font-size: 35px;
+}
 
 .group {
-    background-image: url(../images/681494.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  background-image: url(../images/681494.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .groupbox {
-    height: 12rem;
-    width: 50rem;
-    margin: 7.5px auto;
-    background-color: #1B387E;
-    border-radius: 6px;
-    border: 4px solid #171A21;
+  height: 12rem;
+  width: 50rem;
+  margin: 7.5px auto;
+  background-color: #1b387e;
+  border-radius: 6px;
+  border: 4px solid #171a21;
 }
-.boxheader{
-    height: 25px;
-    width: 100%;
-    background-color: #0d1937;
-    display: flex;
-    align-items: center;
+.boxheader {
+  height: 25px;
+  width: 100%;
+  background-color: #0d1937;
+  display: flex;
+  align-items: center;
 }
 .boxheader p {
-    margin: 0 0 0 8px;
-} 
-.groupbox p{
-    color: #cccccc;
+  margin: 0 0 0 8px;
 }
-.gamegallery{
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.groupbox p {
+  color: #cccccc;
 }
-ion-icon{
-    height: 20px;
-    width: 20px;
+.gamegallery {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.btn-g{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    height: 20px;
-    width: 20px;
-    color: #c6c6c6;
+ion-icon {
+  height: 20px;
+  width: 20px;
 }
-.btn-g:hover{
-    color: #fff;
+.btn-g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  width: 20px;
+  color: #c6c6c6;
 }
-.sekiro{
-    background-image: url(../images/Sekiroimage.jpg);
-    height: 129px;
-    width: 229px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 6px;
-    margin: 0 7px;
-    box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn-g:hover {
+  color: #fff;
 }
-
-.eldenring{
-    background-image: url(../images/EldenRingiamge.jpg);
-    height: 129px;
-    width: 229px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 6px;
-    margin: 0 7px;
-    box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.darksouls{
-    background-image: url(../images/DarkSoulsimage.jpg);
-    height: 129px;
-    width: 229px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0 7px;
-    border-radius: 6px;
-    box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.playbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 35px;
-    border-radius: 6px;
-    background-image: linear-gradient(to bottom right, rgb(7, 220, 15), rgb(13, 201, 114));
-    
-    margin: 0 0  -125px 0;
-    box-shadow: 0.5px 0.5px 3px 2px rgba(47, 47, 47, 0.8);
-}
-.playbutton:hover{
-    background-image: linear-gradient(to bottom right, rgb(9, 239, 16), rgb(14, 222, 125));
-}
-.playbuttonicon{ 
-    height: 20px;
-    width: 20px;
-    background-image: url(../images/Play-Button-PNG-Picture.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.sekiro {
+  background-image: url(../images/Sekiroimage.jpg);
+  height: 129px;
+  width: 229px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin: 0 7px;
+  box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    height: 35px;
-    width: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.eldenring {
+  background-image: url(../images/EldenRingiamge.jpg);
+  height: 129px;
+  width: 229px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin: 0 7px;
+  box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer p a{
-    color: #696969;
-    font-size: 12px;
-    font-style: Arial;
-    text-decoration: none;
+.darksouls {
+  background-image: url(../images/DarkSoulsimage.jpg);
+  height: 129px;
+  width: 229px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 7px;
+  border-radius: 6px;
+  box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(7, 220, 15),
+    rgb(13, 201, 114)
+  );
+
+  margin: 0 0 -125px 0;
+  box-shadow: 0.5px 0.5px 3px 2px rgba(47, 47, 47, 0.8);
+}
+.playbutton:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(9, 239, 16),
+    rgb(14, 222, 125)
+  );
+}
+.playbuttonicon {
+  height: 20px;
+  width: 20px;
+  background-image: url(../images/Play-Button-PNG-Picture.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  height: 35px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p a {
+  color: #696969;
+  font-size: 12px;
+  font-style: Arial;
+  text-decoration: none;
 }
 footer p a:hover {
-    color: #8e8e8e;
+  color: #8e8e8e;
 }

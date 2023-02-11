@@ -1,18 +1,22 @@
 {
-	"name": "@iammajo/steam-redesign",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"astro": "^2.0.10",
-		"hammer": "^0.0.5",
-		"muuri": "^0.9.5",
-		"web-animations-js": "^2.3.2"
-	}
+  "name": "@iammajo/steam-redesign",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^4.5.14",
+    "astro": "^2.0.10",
+    "ionicons": "^6.1.3",
+    "muuri": "^0.9.5"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4",
+    "prettier-plugin-astro": "0.8.0"
+  }
 }
