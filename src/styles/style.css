@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #171A21;
     color: #fff;
+    margin: 0;
 }
 .boxing {
     border: solid 2px red;
@@ -92,124 +88,49 @@ nav ul li:hover ul{
 
 .sortlayer{
     height: 640px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     margin: 0 1% 0 1%;
     background-image: linear-gradient(to right, #3B6491 , #1B387E);
     border-radius: 6px;
 }
-.item {
-    height: 32px;
-    width: 32px;
-    margin: 8px;
-}
+.grid {
+    position: relative;
+  }
+  .item {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    z-index: 1;
+    text-align: center;
+    line-height: 150px;
+  }
+  .item.muuri-item-dragging {
+    z-index: 3;
+  }
+  .item.muuri-item-releasing {
+    z-index: 2;
+  }
+  .item.muuri-item-hidden {
+    z-index: 0;
+  }
+  .item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #96ceb4;
+    text-align: center;
+    font-size: 35px;
+  }
+
+
 .group {
     background-image: url(../images/681494.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-.shelf {
-    background-image: url(../images/211-2110320_book-shelf-wall-books-on-a-shelf-icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.draggable{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    margin: 0rem, 0.5rem;
-    cursor: move;
-    transition: opacity 0.2s;
-}
-
-.item:hover {
-    opacity: 0.5;
-}
-
-.box {
-    height: 12rem;
-    width: 50rem;
-    margin: 7.5px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    background-color: #171A21;
-    border: 3px dashed #fff;
-    border-radius: 6px;
-    transition: border-witdh 0.2s, transform 0.2s, background-color 0.4s;
-}
-
-.gaprechts{
-    margin-right: 10px;
-}
-.gaplinks{
-    margin-left: 10px;
-}
-
-.box.sidebar{
-    height: 38rem;
-    width: 25rem;
-}
-.hide{
-    display: none;
-}
-.drag-over{
-    border: dashed 3px red;
-}
-.drop-targets{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.drop-targetsver{
-    gap: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btn-add{
-    height: 35px;
-    width: 35px;
-    background-color: #1a3165;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btn-add:hover{
-    background-color: #1e3976;
-}
-
-.btn-addver{
-    height: 35px;
-    width: 35px;
-    background-color: #1a3165;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-addver:hover{
-    background-color: #1e3976;
-}
-
 .groupbox {
     height: 12rem;
     width: 50rem;
@@ -299,7 +220,6 @@ ion-icon{
     justify-content: center;
     align-items: center;
 }
-
 .playbutton{
     display: flex;
     justify-content: center;
@@ -339,8 +259,4 @@ footer p a{
 }
 footer p a:hover {
     color: #8e8e8e;
-}
-@media (max-witdh: 600px){
-    html { font-size: 14px; }
-    .draggable-elements { margin: 1.5rem; }
 }

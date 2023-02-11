@@ -9,6 +9,7 @@ import "../styles/style.css";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SteamHomescreen</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <script src="../scripts/main.js"></script>
 </head>
 <body>
     <nav>
@@ -41,13 +42,52 @@ import "../styles/style.css";
 
     </nav>
     <div class="sortlayer">
-        <section class="drop-targetsver gaprechts" id="div-containerver">
-            <button class="btn-addver" id="btnver" onclick="removebtnver()">+</button>
-          <!--  <div class="box sidebar"></div> -->
-        </section>
-    <section class="drop-targets gaplinks" id="div-container">
-        <button class="btn-add" id="btnhor" onclick="removebtnhor()">+</button>
-<div class="groupbox">
+        <div class="grid">
+            <div class="item">
+              <div class="item-content">
+                First
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="item-content">
+               Second
+              </div>
+            </div>
+            <div class="item">
+                <div class="item-content">
+                 Third
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-content">
+                fourth
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-content">
+                 Fifth
+                </div>
+              </div>
+          </div>
+    </div>
+<footer>
+<p><a href="#">Aktuell (4) Downloads ausstehend</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+
+<!--<div class="groupbox">
             <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
             <div class = "gamegallery">
                 <button class="btn-g"><ion-icon name="chevron-back-outline"></ion-icon></button>
@@ -56,19 +96,4 @@ import "../styles/style.css";
                 <div class="darksouls"><div class="playbutton"><div class="playbuttonicon"></div></div></div>
                 <button class="btn-g"><ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
-        </div>
-        <div class="box"></div>
-    </section>
-    
-</div>
-<footer>
-<p><a href="#">Aktuell (4) Downloads ausstehend</a></p>
-</footer>
-
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
-
-<script src="../scripts/main.js"></script>
+        </div> -->
