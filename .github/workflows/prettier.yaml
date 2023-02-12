@@ -1,5 +1,8 @@
 name: Prettier
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
