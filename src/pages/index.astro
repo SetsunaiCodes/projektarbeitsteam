@@ -7,31 +7,23 @@ export const prerender = true;
 <Layout>
   <div class="sortlayer">
     <div class="grid">
+
       <div class="item">
         <div class="item-content">
-          <div class="groupbox">
-            <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
-            <div class="gamegallery">
-              <button class="btn-g"
-                ><ion-icon name="chevron-back-outline"></ion-icon></button
-              >
-              <div class="sekiro badge">
-                <div class="playbutton"><div class="playbuttonicon"></div></div>
-              </div>
-              <div class="eldenring badge">
-                <div class="playbutton"><div class="playbuttonicon"></div></div>
-              </div>
-              <div class="darksouls badge">
-                <div class="playbutton"><div class="playbuttonicon"></div></div>
-              </div>
-              <button class="btn-g"
-                ><ion-icon name="chevron-forward-outline"></ion-icon></button
-              >
-            </div>
-          </div>
+          <div class="selectbox">
+              <ion-icon id="collection" class="headericonused" name="bookmark"></ion-icon>
+              <ion-icon class="headericon" name="people"></ion-icon>
+              <ion-icon class="headericonused" name="pricetags"></ion-icon>
+              <ion-icon class="headericonused" name="time"></ion-icon>
+              <ion-icon class="headericonclose" name="close-circle"></ion-icon>
+          </div> 
         </div>
       </div>
 
+
+
+      
+      
       <div class="item">
         <div class="item-content">
           <div class="friendbox boxing">
@@ -195,6 +187,32 @@ export const prerender = true;
           </div>
         </div>
       </div>
+
+      <div class="item">
+        <div class="item-content">
+          <div id="collection" class="groupbox">
+            <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
+            <div class="gamegallery">
+              <button class="btn-g"
+                ><ion-icon name="chevron-back-outline"></ion-icon></button
+              >
+              <div class="sekiro badge">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <div class="eldenring badge">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <div class="darksouls badge">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <button class="btn-g"
+                ><ion-icon name="chevron-forward-outline"></ion-icon></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
       <div class="item">
         <div class="item-content">
           <div class="groupbox">
@@ -274,8 +292,11 @@ export const prerender = true;
           </div>
         </div>
       </div>
+
+
     </div>
   </div>
+
   <script
     type="module"
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
