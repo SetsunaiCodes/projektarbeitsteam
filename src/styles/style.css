@@ -341,7 +341,7 @@ ion-icon {
 .btn-g:hover {
   color: #fff;
 }
-.badge{
+.badge {
   height: 134px;
   width: 239px;
   background-position: center;
@@ -360,9 +360,8 @@ ion-icon {
   box-sizing: content-box;
   font-size: 26px;
   margin-top: -80px;
-
 }
-.badge .eventbot{
+.badge .eventbot {
   margin-top: -20px;
   box-sizing: content-box;
 }
