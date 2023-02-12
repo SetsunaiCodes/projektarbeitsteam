@@ -84,8 +84,8 @@ nav ul li:hover ul {
 }
 
 .sortlayer {
-  height: 640px;
-  width: 100%;
+  height: 840px;
+  width: 98%;
   margin: 0 1% 0 1%;
   background-image: linear-gradient(to right, #3b6491, #1b387e);
   border-radius: 6px;
@@ -96,12 +96,8 @@ nav ul li:hover ul {
 .item {
   display: block;
   position: absolute;
-  width: 150px;
-  height: 150px;
-  margin: 5px;
+  margin: 0 10px;
   z-index: 1;
-  text-align: center;
-  line-height: 150px;
 }
 .item.muuri-item-dragging {
   z-index: 3;
@@ -116,9 +112,7 @@ nav ul li:hover ul {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #96ceb4;
   text-align: center;
-  font-size: 35px;
 }
 
 .group {
@@ -128,12 +122,140 @@ nav ul li:hover ul {
   background-position: center;
 }
 .groupbox {
-  height: 12rem;
-  width: 50rem;
+  height: 240px;
+  width: 910px;
   margin: 7.5px auto;
   background-color: #1b387e;
   border-radius: 6px;
   border: 4px solid #171a21;
+}
+.friendheader {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.friendbox {
+  height: 800px;
+  width: 260px;
+  margin: 7.5px auto;
+  background-color: #1b387e;
+  border-radius: 6px;
+  border: 4px solid #171a21;
+}
+.friend{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+}
+.status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.friendavatar{
+  width: 70px;
+  flex-grow: 1;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 2px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.divider{
+  margin: 0 0 20px 22px;
+  width: 210px;
+  border: 1px solid #696969;
+
+}
+
+.searchbarfriend {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 0 15px;
+  margin: 5px 0;
+  height: 30px;
+  background-color: #0e1118;
+  color: #696969;
+  border: none;
+  outline: none;
+  border-radius: 6px 0 0 6px;
+  }
+  .lupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    margin: 5px 0;
+    height: 30px;
+    background-color: #0e1118;
+    color: #696969;
+    border-radius: 0 6px 6px 0;
+  }
+  .lupe:hover {
+    background-color: #191e2a;
+  }
+.act{
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actbadgemax{
+  margin: 0 4px 0 6px;
+  height: 12px;
+  width: 12px;
+  background-image: url(../images/Onlinebadge.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.actbadgeduncan {
+  margin: 0 4px 0 6px;
+  height: 12px;
+  width: 12px;
+  background-image: url(../images/Nichtstörenbadge.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.avatarpb {
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  margin-bottom: -10px;
+}
+.max {
+  background-image: url(../images/266129724_404028944806233_2843987818029489365_n.jpg);
+}
+.duncan {
+  background-image: url(../images/251894087_118871590656916_7333754042763064315_n.jpg);
+}
+.currgame {
+  margin-top: -10px;
+  font-size: 13px;
+  align-self: flex-start;
+}
+
+
+.currgame p a{
+  text-decoration: none;
+  color: #fff;
+}
+.currgame p a:hover{
+  color: #c1c1c1;
 }
 .boxheader {
   height: 25px;
@@ -141,6 +263,7 @@ nav ul li:hover ul {
   background-color: #0d1937;
   display: flex;
   align-items: center;
+  color: #cccccc;
 }
 .boxheader p {
   margin: 0 0 0 8px;
@@ -156,8 +279,8 @@ nav ul li:hover ul {
   align-items: center;
 }
 ion-icon {
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 22px;
 }
 .btn-g {
   display: flex;
@@ -165,17 +288,15 @@ ion-icon {
   align-items: center;
   background-color: transparent;
   border: none;
-  height: 20px;
-  width: 20px;
   color: #c6c6c6;
 }
 .btn-g:hover {
   color: #fff;
 }
 .sekiro {
-  background-image: url(../images/Sekiroimage.jpg);
-  height: 129px;
-  width: 229px;
+  background-image: url(../images/Sekirowbadge.jpg);
+  height: 150px;
+  width: 288px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -189,8 +310,8 @@ ion-icon {
 
 .eldenring {
   background-image: url(../images/EldenRingiamge.jpg);
-  height: 129px;
-  width: 229px;
+  height: 150px;
+  width: 288px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -202,9 +323,9 @@ ion-icon {
   align-items: center;
 }
 .darksouls {
-  background-image: url(../images/DarkSoulsimage.jpg);
-  height: 129px;
-  width: 229px;
+  background-image: url(../images/DarkSoulswbadge.jpg);
+  height: 150px;
+  width: 288px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -219,16 +340,15 @@ ion-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px;
-  width: 35px;
+  height: 45px;
+  width: 45px;
   border-radius: 6px;
   background-image: linear-gradient(
     to bottom right,
     rgb(7, 220, 15),
     rgb(13, 201, 114)
   );
-
-  margin: 0 0 -125px 0;
+  margin: 0 0 -158px 0;
   box-shadow: 0.5px 0.5px 3px 2px rgba(47, 47, 47, 0.8);
 }
 .playbutton:hover {
@@ -239,8 +359,8 @@ ion-icon {
   );
 }
 .playbuttonicon {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   background-image: url(../images/Play-Button-PNG-Picture.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -248,7 +368,7 @@ ion-icon {
 }
 
 footer {
-  height: 35px;
+  height: 5%;
   width: 98%;
   display: flex;
   justify-content: center;
