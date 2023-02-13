@@ -9,20 +9,7 @@ export const prerender = true;
     <div class="grid">
       <div class="item">
         <div class="item-content">
-          <div class="selectbox">
-            <ion-icon id="collection" class="headericonused" name="bookmark"
-            ></ion-icon>
-            <ion-icon class="headericon" name="people"></ion-icon>
-            <ion-icon class="headericonused" name="pricetags"></ion-icon>
-            <ion-icon class="headericonused" name="time"></ion-icon>
-            <ion-icon class="headericonclose" name="close-circle"></ion-icon>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-content">
-          <div class="friendbox boxing">
+          <div id="friendlistver" class="friendbox hider">
             <div class="boxheader paddscroll"><p>FREUNDESLISTE</p></div>
             <div class="searchbar">
               <input
@@ -184,9 +171,197 @@ export const prerender = true;
         </div>
       </div>
 
+
       <div class="item">
         <div class="item-content">
-          <div id="collection" class="groupbox">
+          <div id="friendlisthor" class=" hider groupbox paddbott scrollx">
+            <div class="boxheaderfriendhor"><p>FREUNDESLISTE</p></div>
+            <div class="searchbarhor">
+              <input
+                type="text"
+                class="searchbarfriend"
+                placeholder="Suche..."
+              />
+              <div class="lupe">
+                <ion-icon name="search"></ion-icon>
+              </div>
+            </div>
+            <div class="friendlisthor boxing">
+            <div class="friend boxing">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb max"></div>
+                  <p>ItsMajo</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeonline"></div>
+                    <p>online</p>
+                  </div>
+                  <div class="currgame">
+                    <p>
+                      Spielt: <a
+                        href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=german"
+                        >Elden Ring</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+
+            <div class="friend">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb duncan"></div>
+                  <p>Crusade</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeclosed"></div>
+                    <p>closed</p>
+                  </div>
+                  <div class="currgame">
+                    <p class="">
+                      Spielt: <a
+                        href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=german"
+                        >Okami</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="friend">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb makimaa"></div>
+                  <p>Makimaa</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeonline"></div>
+                    <p>online</p>
+                  </div>
+                  <div class="currgame">
+                    <p class="">
+                      Spielt: <a
+                        href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=german"
+                        >Dark Souls III</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+
+            <div class="friend">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb tim"></div>
+                  <p>Take4Tim</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeoffline"></div>
+                    <p>offline</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+
+            <div class="friend">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb karl"></div>
+                  <p>EchteKarl</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeonline"></div>
+                    <p>online</p>
+                  </div>
+                  <div class="currgame">
+                    <p class="">
+                      Spielt: <a
+                        href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=german"
+                        >No Mans Sky</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+
+            <div class="friend">
+              <div class="friendheader">
+                <div class="friendavatar">
+                  <div class="avatarpb jonas"></div>
+                  <p>WillTell</p>
+                </div>
+                <div class="status">
+                  <div class="act">
+                    <p>Status:</p>
+                    <div class="actbadgeonline"></div>
+                    <p>online</p>
+                  </div>
+                  <div class="currgame">
+                    <p class="">
+                      Spielt: <a
+                        href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=german"
+                        >Skyrim</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-content">
+          <div id="collectionver" class="friendbox hider">
+            <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
+            <div class="gamegallery columndisplay">
+              <div class="sekiro badge hormargin">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <div class="eldenring badge hormargin">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <div class="darksouls badge hormargin">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+              <div class="monsterhunter badge hormargin">
+                <div class="playbutton"><div class="playbuttonicon"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-content">
+          <div id="collectionhor" class="hider groupbox">
             <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
             <div class="gamegallery">
               <button class="btn-g"
@@ -211,7 +386,62 @@ export const prerender = true;
 
       <div class="item">
         <div class="item-content">
-          <div class="groupbox">
+          <div id="angebotever" class="friendbox hider">
+            <div class="boxheader"><p>ANGEBOTE DER WISHLIST</p></div>
+            <div class="gamegallery columndisplay">
+              <div class="thelastofus badge hormargin">
+                <div class="angebotbox">
+                  <div class="prozentbox">
+                    <p>-50%</p>
+                  </div>
+                  <div class="preisbox">
+                    <div class="preisalt">49,99€</div>
+                    <div class="preisneu">24,99€</div>
+                  </div>
+                </div>
+              </div>
+              <div class="seaofthieves badge hormargin">
+                <div class="angebotbox">
+                  <div class="prozentbox">
+                    <p>-50%</p>
+                  </div>
+                  <div class="preisbox">
+                    <div class="preisalt">49,99€</div>
+                    <div class="preisneu">24,99€</div>
+                  </div>
+                </div>
+              </div>
+              <div class="hogwarts badge hormargin">
+                <div class="angebotbox">
+                  <div class="prozentbox">
+                    <p>-50%</p>
+                  </div>
+                  <div class="preisbox">
+                    <div class="preisalt">49,99€</div>
+                    <div class="preisneu">24,99€</div>
+                  </div>
+                </div>
+              </div>
+              <div class="godofwar badge hormargin">
+                <div class="angebotbox">
+                  <div class="prozentbox">
+                    <p>-50%</p>
+                  </div>
+                  <div class="preisbox">
+                    <div class="preisalt">49,99€</div>
+                    <div class="preisneu">24,99€</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="item">
+        <div class="item-content">
+          <div id="angebotehor" class="groupbox hider">
             <div class="boxheader"><p>ANGEBOTE DEINER WISHLIST</p></div>
             <div class="gamegallery">
               <button class="btn-g"
@@ -260,7 +490,45 @@ export const prerender = true;
 
       <div class="item">
         <div class="item-content">
-          <div class="groupbox">
+          <div id="eventsver" class="friendbox">
+            <div class="boxheader"><p>BEVORSTEHENDE EVENTS</p></div>
+            <div class="gamegallery columndisplay">
+              <div class="badge hormargin">
+                <h1 class="eventhead">BLACK FRIDAY</h1>
+                <p class="eventbot">beginnt in:</p>
+                <div class="daysuntilbox">
+                  <p>01:13:45</p>
+                </div>
+              </div>
+              <div class="badge hormargin">
+                <h1 class="eventhead">CYBER MONDAY</h1>
+                <p class="eventbot">beginnt in:</p>
+                <div class="daysuntilbox">
+                  <p>04:13:45</p>
+                </div>
+              </div>
+              <div class="badge hormargin">
+                <h1 class="eventhead">H1Z1</h1>
+                <p class="eventbot">erscheint in:</p>
+                <div class="daysuntilbox">
+                  <p>32:11:12</p>
+                </div>
+              </div>
+              <div class="badge hormargin">
+                <h1 class="eventhead">Souls on Fire</h1>
+                <p class="eventbot">erscheint in:</p>
+                <div class="daysuntilbox">
+                  <p>50:03:08</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-content">
+          <div id="eventshor" class="groupbox hider">
             <div class="boxheader"><p>BEVORSTEHENDE EVENTS</p></div>
             <div class="gamegallery">
               <div class="badge">
