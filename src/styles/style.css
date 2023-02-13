@@ -42,6 +42,17 @@ nav ul li {
 .threept:hover {
   background-image: url(../images/3pthover.png);
 }
+.profilepb{
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-image: url(../images/118764484_117117200995766_3549135838940825150_n.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+
+}
 .plus {
   height: 30px;
   width: 30px;
