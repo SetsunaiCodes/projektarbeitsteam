@@ -59,7 +59,7 @@ nav ul li {
   align-items: center;
   flex-direction: column;
 }
-.scrolllist{
+.scrolllist {
   height: 400px;
   overflow-y: scroll;
 }
@@ -99,7 +99,7 @@ nav ul li {
   );
   border-radius: 100vw;
 }
-.friendlisthor{
+.friendlisthor {
   width: 1400px;
   display: flex;
 }
@@ -282,7 +282,7 @@ nav ul li:hover ul {
   width: 220px;
   border-radius: 6px;
 }
-.paddbott{
+.paddbott {
   padding-bottom: 8px;
 }
 .status {
@@ -432,7 +432,7 @@ nav ul li:hover ul {
   align-items: center;
   color: #cccccc;
 }
-.boxheaderfriendhor{
+.boxheaderfriendhor {
   height: 25px;
   width: 1428px;
   background-color: #0d1937;
@@ -454,7 +454,7 @@ nav ul li:hover ul {
   justify-content: center;
   align-items: center;
 }
-.columndisplay{
+.columndisplay {
   height: 100%;
   width: 98%;
   flex-direction: column;
@@ -525,11 +525,10 @@ ion-icon {
   flex-direction: column;
   background-color: #0e1118;
 }
-.hormargin{
+.hormargin {
   margin: 0 0 30px 0;
   height: 117px;
   width: 205px;
-  
 }
 .badge .eventhead {
   box-sizing: content-box;
@@ -561,7 +560,7 @@ ion-icon {
 .monsterhunter {
   background-image: url(../images/MonsterHunterWorldbadge.jpg);
 }
-.godofwar{
+.godofwar {
   background-image: url(../images/GodofWarbadge.jpg);
 }
 .daysuntilbox {
