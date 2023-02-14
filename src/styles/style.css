@@ -129,7 +129,7 @@ nav ul li ul {
   background-color: #0e1118;
   margin-top: 6px;
   padding: 7px;
-  border-radius: 6px;
+  border-radius: 2px;
   font-size: 12px;
   z-index: 2;
 }
@@ -152,7 +152,7 @@ nav ul li:hover ul {
   width: 98%;
   margin: 0 1% 0 1%;
   background-image: linear-gradient(to right, #3b6491, #1b387e);
-  border-radius: 6px;
+  border-radius: 2px;
 }
 .grid {
   position: relative;
@@ -190,7 +190,6 @@ nav ul li:hover ul {
   width: 840px;
   margin: 7.5px auto;
   background-color: #1b387e;
-  border-radius: 6px;
   border: 4px solid #171a21;
 }
 .friendheader {
@@ -203,7 +202,6 @@ nav ul li:hover ul {
   width: 605px;
   margin: 7.5px auto;
   background-color: #0d1937;
-  border-radius: 6px;
   border: 4px solid #171a21;
 }
 .launchcontent {
@@ -217,7 +215,7 @@ nav ul li:hover ul {
   background-color: #0d1937;
 }
 .launchboxing {
-  border-radius: 6px;
+  border-radius: 2px;
   margin: 4%;
   background-color: #1b387e;
   padding: 2%;
@@ -241,7 +239,7 @@ nav ul li:hover ul {
   background-color: #3b6491;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  border-radius: 2px;
   font-family: "Poppins", sans-serif;
   font-size: 13px;
 }
@@ -250,7 +248,7 @@ nav ul li:hover ul {
   height: 380px;
   width: 70px;
   background-color: #1b387e;
-  border-radius: 12px;
+  border-radius: 4px;
   border: 4px solid #171a21;
   margin: 7.5px auto;
   display: flex;
@@ -264,7 +262,6 @@ nav ul li:hover ul {
   width: 255px;
   margin: 7.5px auto;
   background-color: #1b387e;
-  border-radius: 6px;
   border: 4px solid #171a21;
 }
 .friendbox::-webkit-scrollbar {
@@ -289,7 +286,7 @@ nav ul li:hover ul {
   align-items: center;
   height: 100px;
   width: 220px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 .paddbott {
   padding-bottom: 8px;
@@ -336,7 +333,7 @@ nav ul li:hover ul {
   color: #696969;
   border: none;
   outline: none;
-  border-radius: 6px 0 0 6px;
+  border-radius: 4px 0 0 4px;
 }
 .lupe {
   display: flex;
@@ -347,7 +344,7 @@ nav ul li:hover ul {
   height: 30px;
   background-color: #0e1118;
   color: #696969;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 4px 4px 0;
 }
 .lupe:hover {
   background-color: #191e2a;
@@ -478,24 +475,11 @@ ion-icon {
   width: 28px;
   padding: 12px;
   margin: 8px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-image: linear-gradient(
     to bottom right,
     rgb(7, 220, 15),
     rgb(13, 201, 114)
-  );
-}
-.headericonclose {
-  color: #151515;
-  height: 28px;
-  width: 28px;
-  padding: 12px;
-  margin: 8px;
-  border-radius: 6px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(255, 8, 8),
-    rgb(211, 59, 59)
   );
 }
 .headericonused {
@@ -505,7 +489,7 @@ ion-icon {
   background-color: #0e1118;
   padding: 12px;
   margin: 8px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .btn-g {
@@ -525,7 +509,6 @@ ion-icon {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 6px;
   margin: 0 7px;
   box-shadow: 1.5px 1.5px 5px 1px rgba(15, 15, 15, 0.8);
   display: flex;
@@ -579,7 +562,7 @@ ion-icon {
   align-items: center;
   height: 40px;
   width: 80px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-image: linear-gradient(
     to bottom right,
     rgb(7, 220, 15),
@@ -594,7 +577,7 @@ ion-icon {
   align-items: center;
   height: 35px;
   width: 35px;
-  border-radius: 6px;
+  border-radius: 4px;
   background-image: linear-gradient(
     to bottom right,
     rgb(7, 220, 15),
@@ -609,7 +592,7 @@ ion-icon {
 }
 
 .angebotbox {
-  border-radius: 6px;
+  border-radius: 4px;
   display: flex;
   height: 33px;
   width: 100px;
@@ -619,7 +602,7 @@ ion-icon {
 .angebotbox .prozentbox {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  border-radius: 6px 0 0 6px;
+  border-radius: 4px 0 0 4px;
   height: 33px;
   width: 50px;
   display: flex;
@@ -632,7 +615,7 @@ ion-icon {
   );
 }
 .preisbox {
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 4px 4px 0;
   height: 33px;
   width: 50px;
   display: flex;
