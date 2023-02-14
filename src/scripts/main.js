@@ -54,11 +54,11 @@ function drop(e) {
   // display the draggable element
   draggable.classList.remove("hider");
 
-  var grids = document.getElementsByClassName('.item-content');
-  var parentDiv = document.getElementById('dragbox');
-  var collectionhoritem = parentDiv.querySelector('.collectionhoritem');
-  if(collectionhoritem){
-    var collectionhor = grids.querySelector('.collectionhor');
-    collectionhor.classList.remove('.hider');
+  var grids = document.getElementsByClassName(".item-content");
+  var parentDiv = document.getElementById("dragbox");
+  var collectionhoritem = parentDiv.querySelector(".collectionhoritem");
+  if (collectionhoritem) {
+    var collectionhor = grids.querySelector(".collectionhor");
+    collectionhor.classList.remove(".hider");
   }
 }
