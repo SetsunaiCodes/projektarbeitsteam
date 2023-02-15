@@ -5,8 +5,8 @@ export const prerender = true;
 ---
 
 <Layout>
-  <div class="drop-targets">
-    <div id="dragbox" class="sortlayer dragbox">
+ 
+    <div class="sortlayer">
       <div class="grid">
         <div class="item">
           <div class="item-content">
@@ -58,7 +58,7 @@ export const prerender = true;
 
         <div class="item">
           <div class="item-content">
-            <div id="friendlistver" class="friendbox">
+            <div id="friendlistver" class="friendbox hider">
               <div class="boxheader paddscroll"><p>FREUNDESLISTE</p></div>
               <div class="searchbar">
                 <input
@@ -377,7 +377,7 @@ export const prerender = true;
 
         <div class="item">
           <div class="item-content">
-            <div id="collectionver" class="friendbox hider">
+            <div id="collectionver" class="friendbox">
               <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
               <div class="gamegallery columndisplay">
                 <div class="sekiro badge hormargin">
@@ -405,9 +405,9 @@ export const prerender = true;
           </div>
         </div>
 
-        <div class="item">
+        <div id="collectionhor" class="item">
           <div class="item-content">
-            <div class="collectionhor groupbox">
+            <div class=" groupbox hider">
               <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
               <div class="gamegallery">
                 <button class="btn-g"
@@ -438,7 +438,7 @@ export const prerender = true;
 
         <div class="item">
           <div class="item-content">
-            <div id="angebotever" class="friendbox">
+            <div class="friendbox">
               <div class="boxheader"><p>ANGEBOTE DER WISHLIST</p></div>
               <div class="gamegallery columndisplay">
                 <div class="thelastofus badge hormargin">
@@ -609,7 +609,6 @@ export const prerender = true;
         </div>
       </div>
     </div>
-  </div>
   <script
     type="module"
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
