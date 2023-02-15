@@ -64,8 +64,11 @@ function friendlisthor(){
 function friendlistver(){
   if(this.classList.contains("headericon")){
     var friendlistverelement = document.getElementById("friendlistver");
-    friendlistverelement.classList.remove("hider");
-
+    const sortlayer = document.getElementsByClassName("sortlayer");
+    friendlistverelement.style.opacity = "0";
+    friendlistverelement.style.transform = "scale(0.5)";
+    sortlayer.stlye.witdh = "0px";
+    sortlayer.stlye.height = "643px";
     this.classList.remove("headericon");
     this.classList.add("headericonused");
   } else{

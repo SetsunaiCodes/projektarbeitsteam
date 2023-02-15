@@ -145,7 +145,7 @@ nav ul li:hover ul {
 
 .sortlayer {
   height: 643px;
-  width: 98%;
+  width: 1494px;
   margin: 0 1% 0 1%;
   background-image: linear-gradient(to right, #1b2735, #2a475e, #1b2735);
   border-radius: 2px;
@@ -581,7 +581,6 @@ ion-icon {
 
 .hider{
 display: none;
-
 }
 
 .angebotbox {
