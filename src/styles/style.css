@@ -436,7 +436,7 @@ nav ul li:hover ul {
   background-color: #171a21;
   display: flex;
   align-items: center;
-  color :#c7d5e0;
+  color: #c7d5e0;
 }
 
 .boxheader p {
@@ -579,8 +579,8 @@ ion-icon {
   box-shadow: 0.5px 0.5px 3px 2px rgba(47, 47, 47, 0.8);
 }
 
-.hider{
-display: none;
+.hider {
+  display: none;
 }
 
 .angebotbox {
