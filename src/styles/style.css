@@ -78,14 +78,10 @@ nav ul li {
   width: 10px;
 }
 .scrolllist::-webkit-scrollbar-track {
-  background: #0e1118;
+  background: #171a21;
 }
 .scrolllist::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(0, 34, 255),
-    rgb(14, 170, 179)
-  );
+  background: #222731;
   border-radius: 100vw;
 }
 .scrolly {
@@ -536,8 +532,8 @@ ion-icon {
   border-radius: 4px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(7, 220, 15),
-    rgb(13, 201, 114)
+    rgb(79, 79, 79),
+    rgb(44, 44, 44)
   );
 }
 .headericonused {
@@ -774,6 +770,7 @@ ion-icon {
 }
 
 .playbutton:hover {
+  cursor: pointer;
   background-image: linear-gradient(
     to bottom right,
     rgb(9, 239, 16),
