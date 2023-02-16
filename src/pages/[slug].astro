@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Steam from "../scripts/steam?raw";
+
+const html = (
+  await import(`../steam/${Astro.params.slug}/index.html?raw`)
+).default.replace(
+  "<head>",
+  `<head><script type="module">${Steam}</script><link rel="stylesheet" ` +
+    'href="/steam-overrides.css" />'
+);
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return [
+    { params: { slug: "store" } },
+    { params: { slug: "library" } },
+    { params: { slug: "community" } },
+    { params: { slug: "help" } },
+  ];
+}
+---
+
+<Layout>
+  <iframe srcdoc={html}></iframe>
+</Layout>
+
+<style>
+  iframe {
+    margin-left: 1%;
+    border-radius: 2px;
+    border-style: none;
+    width: 98%;
+    height: calc(100vh - 100px);
+  }
+</style>

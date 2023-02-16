@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "wrangler pages dev dist --compatibility-date=2022-11-30",
+    "preview": "wrangler pages dev dist --compatibility-date=2022-11-30 --compatibility-flag=streams_enable_constructors",
     "astro": "astro"
   },
   "dependencies": {
