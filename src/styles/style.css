@@ -141,11 +141,11 @@ nav ul li:hover ul {
 }
 
 .sortlayer {
-  height: 643px;
-  width: 1494px;
-  margin: 0 1% 0 1%;
-  background-image: linear-gradient(to right, #1b2735, #2a475e, #1b2735);
+  margin-left: 1%;
   border-radius: 2px;
+  width: 98%;
+  height: calc(100vh - 100px);
+  background-image: linear-gradient(to right, #1b2735, #2a475e, #1b2735);
 }
 .badgebg {
   height: 90px;
