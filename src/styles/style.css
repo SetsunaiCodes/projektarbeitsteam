@@ -147,7 +147,7 @@ nav ul li:hover ul {
   background-image: linear-gradient(to right, #1b2735, #2a475e, #1b2735);
   border-radius: 2px;
 }
-.badgebg{
+.badgebg {
   height: 90px;
   width: 160px;
   background-position: center;
@@ -161,33 +161,33 @@ nav ul li:hover ul {
   flex-direction: column;
   background-color: #2a475e;
 }
-.badgebg:hover{
+.badgebg:hover {
   cursor: pointer;
   box-shadow: 1.5px 1.5px 5px 1px rgba(8, 33, 146, 0.8);
 }
-.bggallery{
+.bggallery {
   height: 130px;
   margin: 0 8px 0 8px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.defaultbg{
+.defaultbg {
   margin: 0 8px 0 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #c7d5e0;
 }
-.bgheadtext{
+.bgheadtext {
   flex-grow: 0;
   width: 630px;
 }
-.bgheadtext2{
+.bgheadtext2 {
   flex-grow: 0;
   width: 437px;
 }
-.headdivider{
+.headdivider {
   height: 0;
   border: 1px solid #c7d5e0;
   width: 100%;
@@ -243,7 +243,7 @@ nav ul li:hover ul {
   background-color: #1b2838;
   border: 4px solid #171a21;
 }
-.bgbox{
+.bgbox {
   height: 605px;
   width: 605px;
   margin: 7.5px auto;
@@ -585,15 +585,15 @@ ion-icon {
   margin-top: -20px;
   box-sizing: content-box;
 }
-.default1{
+.default1 {
   cursor: pointer;
   background-image: linear-gradient(to right, #1b2735, #2a475e, #1b2735);
 }
-.default2{
+.default2 {
   cursor: pointer;
   background-image: linear-gradient(to right, #0b407d, #4f8bbc, #0b407d);
 }
-.default3{
+.default3 {
   cursor: pointer;
   background-image: linear-gradient(to right, #171717, #303030, #171717);
 }
@@ -621,43 +621,43 @@ ion-icon {
 .godofwar {
   background-image: url(../images/GodofWarbadge.jpg);
 }
-.gowwallpaper1{
+.gowwallpaper1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/GOWWallpaper.jpg);
 }
-.gowwallpaper2{
+.gowwallpaper2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/GOW2Wallpaper.webp);
 }
-.melinda{
+.melinda {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/MelindaWallpaper.jpeg);
 }
-.nomanssky{
+.nomanssky {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/NoMansSkyWallpaper.webp);
 }
-.residentevil{
+.residentevil {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/ResidentEvilWallpaper.jpg);
 }
-.hades{
+.hades {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/HadesWallpaper.png);
 }
-.close{
+.close {
   margin: 0 0 0 320px;
   height: 30px;
   width: 30px;
@@ -665,11 +665,11 @@ ion-icon {
   justify-content: center;
   align-items: center;
 }
-.close:hover{
+.close:hover {
   color: #ffffff;
 }
 
-.uploadbox{
+.uploadbox {
   color: #c7d5e0;
   height: 105px;
   width: 105px;
@@ -681,11 +681,11 @@ ion-icon {
   background-color: #151e29;
   border: 2px dashed #c7d5e0;
 }
-.uploadbox:hover{
+.uploadbox:hover {
   cursor: pointer;
   background-color: #212e3f;
 }
-.uploadicon{
+.uploadicon {
   height: 30px;
   width: 30px;
 }
