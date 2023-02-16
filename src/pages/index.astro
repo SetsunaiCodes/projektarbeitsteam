@@ -5,49 +5,51 @@ export const prerender = true;
 ---
 
 <Layout>
-  <div class="sortlayer">
+  <div id="sortlayer" class="sortlayer">
     <div class="grid">
       <div class="item">
         <div class="item-content">
-          <div id="launch" class="launchbox hider">
-            <div class="boxheader"><p>WILLKOMMEN IM STEAM HOMESCREEN</p></div>
-            <div class="launchcontent">
-              <div class="launchmessage">
-                <div class="launchboxing">
-                  <h1>Hallo Nicoj1n,</h1>
-                  <p>
-                    Bevor Sie mit dem Gestalten ihrer persönlichen Homepage
-                    starten, möchten wir Ihnen einen kleinen Überblick
-                    verschaffen. Hovern Sie oben rechts über das +-Icon rechts
-                    neben Ihrem Profil, um eine Auswahl verschiedener Module zu
-                    erhalten, die Sie per Drag and Drop in diese Fläche ziehen
-                    können.<br /><br />Sie haben folgende Möglichkeiten:
-                  </p>
-                </div>
-                <div class="launchboxing">
-                  <ol>
-                    <li>
-                      Eine Sammlung an Spielen aus Ihrer Bibliothek zu erstellen
-                    </li>
-                    <li>
-                      Bevorstehende Events, die Sie nicht verpassen wollen zu
-                      erstellen
-                    </li>
-                    <li>
-                      Spiele Ihrer Wishlist, die sich gerade im Angebot befinden
-                      anzuzeigen
-                    </li>
-                    <li>Ihre Freundesliste anzeigen</li>
-                  </ol>
-                </div>
-                <div class="launchboxing">
-                  <p>
-                    Probieren Sie es gleich aus und fügen Sie Ihre erste
-                    Sammlung hinzu!
-                  </p>
-                </div>
-                <button>Verstanden</button>
-              </div>
+          <div id="bgchange" class="bgbox hider">
+            <div class="boxheader"><p class="headertext">HINTERGRUND BEARBEITEN</p><div id="hintergrundchangeclose" class="close"><ion-icon name="close-outline"></ion-icon></div></div>
+            <div class="defaultbg"><p>Standardhintergründe</p><div class="headdivider"></div></div>
+            <div class="bggallery">
+              <button class="btn-g"
+                ><ion-icon name="chevron-back-outline"></ion-icon></button
+              >
+              <div id="default1" class="default1 badgebg"></div>
+              <div id="default2" class="default2 badgebg"></div>
+              <div id="default3" class="default3 badgebg"></div>
+              <button class="btn-g"
+                ><ion-icon name="chevron-forward-outline"></ion-icon></button
+              >
+            </div>
+            <div class="defaultbg"><p class="bgheadtext">Hintergründe aus dem Steam Store</p><div class="headdivider"></div></div>
+            <div class="bggallery">
+              <button class="btn-g"
+                ><ion-icon name="chevron-back-outline"></ion-icon></button
+              >
+              <div id="residentevil" class="residentevil badgebg"></div>
+              <div id="nomanssky" class="nomanssky badgebg"></div>
+              <div id="hades" class="hades badgebg"></div>
+              <button class="btn-g"
+                ><ion-icon name="chevron-forward-outline"></ion-icon></button
+              >
+            </div>
+            <div class="defaultbg"><p class="bgheadtext2">Freigeschaltete Hintergründe</p><div class="headdivider"></div></div>
+            <div class="bggallery">
+              <button class="btn-g"
+                ><ion-icon name="chevron-back-outline"></ion-icon></button
+              >
+              <div id="gowwallpaper1" class="gowwallpaper1 badgebg"></div>
+              <div id="melinda" class="melinda badgebg"></div>
+              <div id="gowwallpaper2" class="gowwallpaper2 badgebg"></div>
+              <button class="btn-g"
+                ><ion-icon name="chevron-forward-outline"></ion-icon></button
+              >
+            </div>
+            <div class="defaultbg"><p>Upload</p><div class="headdivider"></div></div>
+            <div class="bggallery">
+              <div class="uploadbox"><ion-icon class="uploadicon" name="cloud-upload-outline"></ion-icon><p>Drag and Drop</p></div>
             </div>
           </div>
         </div>
@@ -219,7 +221,7 @@ export const prerender = true;
 
       <div class="item">
         <div class="item-content">
-          <div id="friendlisthor" class="groupbox paddbott scrollx">
+          <div id="friendlisthor" class="groupbox hider paddbott scrollx">
             <div class="boxheaderfriendhor"><p>FREUNDESLISTE</p></div>
             <div class="searchbarhor">
               <input
@@ -231,7 +233,7 @@ export const prerender = true;
                 <ion-icon name="search"></ion-icon>
               </div>
             </div>
-            <div class="friendlisthor">
+            <div class="friendlisthordirection">
               <div class="friend">
                 <div class="friendheader">
                   <div class="friendavatar">
@@ -374,7 +376,7 @@ export const prerender = true;
 
       <div class="item">
         <div class="item-content">
-          <div id="collectionver" class="friendbox">
+          <div id="collectionver" class="friendbox hider">
             <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
             <div class="gamegallery columndisplay">
               <div class="sekiro badge hormargin">
@@ -402,9 +404,9 @@ export const prerender = true;
         </div>
       </div>
 
-      <div id="collectionhor" class="item">
+      <div class="item">
         <div class="item-content">
-          <div class="groupbox hider">
+          <div id="collectionhor" class="groupbox hider">
             <div class="boxheader"><p>MARKIERTE SPIELE</p></div>
             <div class="gamegallery">
               <button class="btn-g"
@@ -435,7 +437,7 @@ export const prerender = true;
 
       <div class="item">
         <div class="item-content">
-          <div class="friendbox">
+          <div id="angebotever" class="friendbox hider">
             <div class="boxheader"><p>ANGEBOTE DER WISHLIST</p></div>
             <div class="gamegallery columndisplay">
               <div class="thelastofus badge hormargin">
