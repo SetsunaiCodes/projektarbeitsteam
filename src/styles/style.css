@@ -334,7 +334,7 @@ nav ul li:hover ul {
 }
 .friend {
   background-color: #2a475e;
-  margin: 0 0 5px 10px;
+  margin: 0 0 5px 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -694,7 +694,20 @@ ion-icon {
 .close:hover {
   color: #ffffff;
 }
+.clearbackground{
+  height: 50px;
+  color: #c7d5e0;
+  background-color: #2a475e;
+  border: none;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 10px;
+}
+.clearbackground:hover{
+  cursor: pointer;
+  background-color: #3b6282;
 
+}
 .uploadbox {
   color: #c7d5e0;
   height: 105px;

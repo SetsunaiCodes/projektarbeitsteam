@@ -5,11 +5,11 @@ export const prerender = true;
 ---
 
 <Layout>
-  <div id="sortlayer" class="sortlayer">
+  <div id="sortlayer" class="sortlayer default1">
     <div class="grid">
       <div class="item">
         <div class="item-content">
-          <div id="bgchange" class="bgbox hider">
+          <div id="bgchange" class="bgbox">
             <div class="boxheader">
               <p class="headertext">CHANGE BACKGROUND</p><div
                 id="hintergrundchangeclose"
@@ -17,6 +17,9 @@ export const prerender = true;
               >
                 <ion-icon name="close-outline"></ion-icon>
               </div>
+            </div>
+            <div class="bggallery">
+              <button id="clearbackground" class="clearbackground">Clear background</button>
             </div>
             <div class="defaultbg">
               <p>Default</p><div class="headdivider"></div>
