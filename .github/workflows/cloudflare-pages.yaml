@@ -15,7 +15,7 @@ jobs:
       - run: |
           npm ci
           npm run build
-      - uses: cloudflare/pages-action@1.3.0
+      - uses: cloudflare/pages-action@v1.3.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 9839aabb4253ed85d80549a8f99ee832
