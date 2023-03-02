@@ -597,32 +597,6 @@ ion-icon {
   cursor: pointer;
   background-image: linear-gradient(to right, #171717, #303030, #171717);
 }
-.flagentry {
-  display: flex;
-  align-items: center;
-}
-.flaggermany {
-  cursor: pointer;
-  height: 8px;
-  width: 16px;
-  background-image: url(../images/Flagge_Deutschland.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  margin-right: 3px;
-}
-.flaguk {
-  cursor: pointer;
-  height: 8px;
-  width: 16px;
-  background-image: url(../images/flagge-england-schottland-102__v-gseagaleriexl.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  margin-right: 3px;
-}
 .sekiro {
   background-image: url(../images/Sekirowbadge.jpg);
 }
