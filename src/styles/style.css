@@ -597,11 +597,11 @@ ion-icon {
   cursor: pointer;
   background-image: linear-gradient(to right, #171717, #303030, #171717);
 }
-.flagentry{
+.flagentry {
   display: flex;
   align-items: center;
 }
-.flaggermany{
+.flaggermany {
   cursor: pointer;
   height: 8px;
   width: 16px;
@@ -612,7 +612,7 @@ ion-icon {
   border-radius: 2px;
   margin-right: 3px;
 }
-.flaguk{
+.flaguk {
   cursor: pointer;
   height: 8px;
   width: 16px;
@@ -694,7 +694,7 @@ ion-icon {
 .close:hover {
   color: #ffffff;
 }
-.clearbackground{
+.clearbackground {
   height: 50px;
   color: #c7d5e0;
   background-color: #2a475e;
@@ -703,10 +703,9 @@ ion-icon {
   font-family: "Poppins", sans-serif;
   padding: 0 10px;
 }
-.clearbackground:hover{
+.clearbackground:hover {
   cursor: pointer;
   background-color: #3b6282;
-
 }
 .uploadbox {
   color: #c7d5e0;

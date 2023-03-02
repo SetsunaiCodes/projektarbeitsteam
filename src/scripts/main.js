@@ -36,8 +36,12 @@ document.getElementById("nomanssky").addEventListener("click", nomanssky);
 document.getElementById("gowwallpaper1").addEventListener("click", gow1);
 document.getElementById("gowwallpaper2").addEventListener("click", gow2);
 document.getElementById("melinda").addEventListener("click", melinda);
-document.getElementById("hintergrundchange").addEventListener("click", hintergrundchange);
-document.getElementById("clearbackground").addEventListener("click", clearbackground);
+document
+  .getElementById("hintergrundchange")
+  .addEventListener("click", hintergrundchange);
+document
+  .getElementById("clearbackground")
+  .addEventListener("click", clearbackground);
 
 function collectionhor() {
   if (this.classList.contains("headericon")) {
