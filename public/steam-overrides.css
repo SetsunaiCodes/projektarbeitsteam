@@ -8,12 +8,14 @@ body {
   background: linear-gradient(to right, #1b2735, #2a475e, #1b2735) !important;
 }
 
-.apphub_background {
+.apphub_background,
+.arrow.right,
+.arrow.left {
   background-image: unset !important;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 10px !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,6 +23,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #222731;
+  background: #222731 !important;
   border-radius: 100vw;
 }
