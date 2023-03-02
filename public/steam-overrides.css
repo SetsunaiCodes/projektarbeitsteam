@@ -4,6 +4,14 @@
   display: none;
 }
 
+body {
+  background: linear-gradient(to right, #1b2735, #2a475e, #1b2735) !important;
+}
+
+.apphub_background {
+  background-image: unset !important;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
