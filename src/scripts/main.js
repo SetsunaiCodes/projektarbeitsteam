@@ -50,12 +50,14 @@ function collectionhor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var collectionhor = document.getElementById("collectionhor");
     collectionhor.classList.add("hider");
 
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function collectionver() {
@@ -65,11 +67,13 @@ function collectionver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var collectionverelement = document.getElementById("collectionver");
     collectionverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function friendlisthor() {
@@ -79,11 +83,13 @@ function friendlisthor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var friendlisthorelement = document.getElementById("friendlisthor");
     friendlisthorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function friendlistver() {
@@ -93,12 +99,14 @@ function friendlistver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var friendlistverelement = document.getElementById("friendlistver");
     friendlistverelement.classList.add("hider");
 
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function angebotehor() {
@@ -108,11 +116,13 @@ function angebotehor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var angebotehorelement = document.getElementById("angebotehor");
     angebotehorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function angebotever() {
@@ -122,11 +132,13 @@ function angebotever() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var angeboteverelement = document.getElementById("angebotever");
     angeboteverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function timerhor() {
@@ -136,11 +148,13 @@ function timerhor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var timerhorelement = document.getElementById("eventshor");
     timerhorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function timerver() {
@@ -150,11 +164,13 @@ function timerver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout()
   } else {
     var timerverelement = document.getElementById("eventsver");
     timerverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout()
   }
 }
 function hintergrundchangeclose() {
