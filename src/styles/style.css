@@ -346,13 +346,14 @@ nav ul li:hover ul {
   padding-bottom: 8px;
 }
 .status {
+  width: 140px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .friendavatar {
-  width: 70px;
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -471,7 +472,6 @@ nav ul li:hover ul {
 .currgame {
   margin-top: -10px;
   font-size: 11px;
-  align-self: flex-start;
 }
 
 .currgame p a {
