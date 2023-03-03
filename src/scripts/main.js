@@ -203,30 +203,30 @@ function hintergrundchange() {
   var bgchangeelement = document.getElementById("bgchange");
   bgchangeelement.classList.remove("hider");
 }
-function clearbackground(){
+function clearbackground() {
   const backgroundcheck = document.getElementById("sortlayer");
-  if (backgroundcheck.classList.contains("hades")){
+  if (backgroundcheck.classList.contains("hades")) {
     backgroundcheck.classList.remove("hades");
   }
-  if (backgroundcheck.classList.contains("residentevil")){
+  if (backgroundcheck.classList.contains("residentevil")) {
     backgroundcheck.classList.remove("residentevil");
   }
-  if (backgroundcheck.classList.contains("nomanssky")){
+  if (backgroundcheck.classList.contains("nomanssky")) {
     backgroundcheck.classList.remove("nomanssky");
   }
-  if (backgroundcheck.classList.contains("melinda")){
+  if (backgroundcheck.classList.contains("melinda")) {
     backgroundcheck.classList.remove("melinda");
   }
-  if (backgroundcheck.classList.contains("gowwallpaper2")){
+  if (backgroundcheck.classList.contains("gowwallpaper2")) {
     backgroundcheck.classList.remove("gowwallpaper2");
   }
-  if (backgroundcheck.classList.contains("gowwallpaper1")){
+  if (backgroundcheck.classList.contains("gowwallpaper1")) {
     backgroundcheck.classList.remove("gowwallpaper1");
   }
-  if (backgroundcheck.classList.contains("default2")){
+  if (backgroundcheck.classList.contains("default2")) {
     backgroundcheck.classList.remove("default2");
   }
-  if (backgroundcheck.classList.contains("default3")){
+  if (backgroundcheck.classList.contains("default3")) {
     backgroundcheck.classList.remove("default3");
   }
 }
