@@ -75,7 +75,21 @@ export const prerender = true;
       <div class="item">
         <div class="item-content">
           <div id="friendlistver" class="friendbox">
-            <div class="boxheader paddscroll"><p>FRIENDLIST</p></div>
+            <div class="boxheader paddscroll">
+              <nav class="filter">
+                <ul>
+                  <li>
+                    <a href="#"><div class="filtericon"><ion-icon name="filter-outline"></ion-icon></div></a>
+                    <ul>
+                      <li><a href="#">Online</a></li>
+                      <li><a href="#">Offline</a></li>
+                      <li><a href="#">Ingame</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                </nav>
+              <p>FRIENDLIST</p>
+            </div>
             <div class="searchbar">
               <input
                 type="text"
@@ -85,6 +99,7 @@ export const prerender = true;
               <div class="lupe">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
+
             </div>
 
             <div class="friend">
