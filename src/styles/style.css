@@ -17,15 +17,15 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.filter{
+.filter {
   background-color: #171a21;
-  height:25px;
+  height: 25px;
   width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.filtericon{
+.filtericon {
   display: flex;
   justify-content: center;
   align-items: center;
