@@ -176,6 +176,7 @@ function timerver() {
 function hintergrundchangeclose() {
   var bgchangeelement = document.getElementById("bgchange");
   bgchangeelement.classList.add("hider");
+  grid.refreshItems().layout();
 }
 
 function bg1() {
@@ -218,6 +219,7 @@ function gow2() {
 function hintergrundchange() {
   var bgchangeelement = document.getElementById("bgchange");
   bgchangeelement.classList.remove("hider");
+  grid.refreshItems().layout();
 }
 function clearbackground() {
   const backgroundcheck = document.getElementById("sortlayer");
