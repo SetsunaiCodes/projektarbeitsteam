@@ -184,7 +184,8 @@ nav ul li:hover ul {
 }
 .bgheadtext2 {
   flex-grow: 0;
-  width: 437px;
+  text-align: left;
+  width: 100%;
 }
 .headdivider {
   height: 0;
@@ -657,7 +658,7 @@ ion-icon {
   background-image: url(../images/HadesWallpaper.png);
 }
 .close {
-  margin: 0 0 0 320px;
+  margin: 0 0 0 350px;
   height: 30px;
   width: 30px;
   display: flex;
