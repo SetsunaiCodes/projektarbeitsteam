@@ -4,14 +4,14 @@
   display: none;
 }
 
-body {
+body:not(.sale_spring2023) {
   background: linear-gradient(to right, #1b2735, #2a475e, #1b2735) !important;
 }
 
 .apphub_background,
 .arrow.right,
 .arrow.left {
-  background-image: unset !important;
+  background: unset !important;
 }
 
 ::-webkit-scrollbar {
