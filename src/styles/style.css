@@ -543,12 +543,8 @@ ion-icon {
   padding: 12px;
   margin: 8px;
   border-radius: 4px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(79, 79, 79),
-    rgb(44, 44, 44)
-  );
-}
+  background-color: #3a3a3a;}
+
 .headericonused {
   color: #696969;
   height: 28px;
