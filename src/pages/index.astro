@@ -9,7 +9,7 @@ export const prerender = true;
     <div class="grid">
       <div class="item">
         <div class="item-content">
-          <div id="bgchange" class="bgbox">
+          <div id="bgchange" class="bgbox hider">
             <div class="boxheader">
               <p class="headertext">CHANGE BACKGROUND</p><div
                 id="hintergrundchangeclose"
@@ -68,15 +68,6 @@ export const prerender = true;
                 ><ion-icon name="chevron-forward-outline"></ion-icon></button
               >
             </div>
-            <div class="defaultbg">
-              <p>Upload</p><div class="headdivider"></div>
-            </div>
-            <div class="bggallery">
-              <div class="uploadbox">
-                <ion-icon class="uploadicon" name="cloud-upload-outline"
-                ></ion-icon><p>Drag and Drop</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -84,7 +75,25 @@ export const prerender = true;
       <div class="item">
         <div class="item-content">
           <div id="friendlistver" class="friendbox">
-            <div class="boxheader paddscroll"><p>FRIENDLIST</p></div>
+            <div class="boxheader paddscroll">
+              <nav class="filter">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><div class="filtericon">
+                        <ion-icon name="filter-outline"></ion-icon>
+                      </div></a
+                    >
+                    <ul>
+                      <li><a href="#">Online</a></li>
+                      <li><a href="#">Offline</a></li>
+                      <li><a href="#">Ingame</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <p>FRIENDLIST</p>
+            </div>
             <div class="searchbar">
               <input
                 type="text"
@@ -248,7 +257,25 @@ export const prerender = true;
       <div class="item">
         <div class="item-content">
           <div id="friendlisthor" class="groupbox hider paddbott scrollx">
-            <div class="boxheaderfriendhor"><p>FRIENDLIST</p></div>
+            <div class="boxheaderfriendhor">
+              <nav class="filter">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><div class="filtericon">
+                        <ion-icon name="filter-outline"></ion-icon>
+                      </div></a
+                    >
+                    <ul>
+                      <li><a href="#">Online</a></li>
+                      <li><a href="#">Offline</a></li>
+                      <li><a href="#">Ingame</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <p>FRIENDLIST</p>
+            </div>
             <div class="searchbarhor">
               <input
                 type="text"

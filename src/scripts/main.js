@@ -50,12 +50,14 @@ function collectionhor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var collectionhor = document.getElementById("collectionhor");
     collectionhor.classList.add("hider");
 
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function collectionver() {
@@ -65,11 +67,13 @@ function collectionver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var collectionverelement = document.getElementById("collectionver");
     collectionverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function friendlisthor() {
@@ -79,11 +83,13 @@ function friendlisthor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var friendlisthorelement = document.getElementById("friendlisthor");
     friendlisthorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function friendlistver() {
@@ -93,12 +99,14 @@ function friendlistver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var friendlistverelement = document.getElementById("friendlistver");
     friendlistverelement.classList.add("hider");
 
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function angebotehor() {
@@ -108,11 +116,13 @@ function angebotehor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var angebotehorelement = document.getElementById("angebotehor");
     angebotehorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function angebotever() {
@@ -122,11 +132,13 @@ function angebotever() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var angeboteverelement = document.getElementById("angebotever");
     angeboteverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function timerhor() {
@@ -136,11 +148,13 @@ function timerhor() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var timerhorelement = document.getElementById("eventshor");
     timerhorelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function timerver() {
@@ -150,16 +164,19 @@ function timerver() {
 
     this.classList.remove("headericon");
     this.classList.add("headericonused");
+    grid.refreshItems().layout();
   } else {
     var timerverelement = document.getElementById("eventsver");
     timerverelement.classList.add("hider");
     this.classList.remove("headericonused");
     this.classList.add("headericon");
+    grid.refreshItems().layout();
   }
 }
 function hintergrundchangeclose() {
   var bgchangeelement = document.getElementById("bgchange");
   bgchangeelement.classList.add("hider");
+  grid.refreshItems().layout();
 }
 
 function bg1() {
@@ -202,4 +219,32 @@ function gow2() {
 function hintergrundchange() {
   var bgchangeelement = document.getElementById("bgchange");
   bgchangeelement.classList.remove("hider");
+  grid.refreshItems().layout();
+}
+function clearbackground() {
+  const backgroundcheck = document.getElementById("sortlayer");
+  if (backgroundcheck.classList.contains("hades")) {
+    backgroundcheck.classList.remove("hades");
+  }
+  if (backgroundcheck.classList.contains("residentevil")) {
+    backgroundcheck.classList.remove("residentevil");
+  }
+  if (backgroundcheck.classList.contains("nomanssky")) {
+    backgroundcheck.classList.remove("nomanssky");
+  }
+  if (backgroundcheck.classList.contains("melinda")) {
+    backgroundcheck.classList.remove("melinda");
+  }
+  if (backgroundcheck.classList.contains("gowwallpaper2")) {
+    backgroundcheck.classList.remove("gowwallpaper2");
+  }
+  if (backgroundcheck.classList.contains("gowwallpaper1")) {
+    backgroundcheck.classList.remove("gowwallpaper1");
+  }
+  if (backgroundcheck.classList.contains("default2")) {
+    backgroundcheck.classList.remove("default2");
+  }
+  if (backgroundcheck.classList.contains("default3")) {
+    backgroundcheck.classList.remove("default3");
+  }
 }

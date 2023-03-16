@@ -17,6 +17,19 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.filter {
+  background-color: #171a21;
+  height: 25px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtericon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav ul {
   display: flex;
   justify-content: center;
@@ -120,7 +133,6 @@ nav ul li ul {
   display: none;
   position: absolute;
   background-color: #101217;
-  margin-top: 6px;
   padding: 8px;
   border-radius: 2px;
   font-size: 12px;
@@ -185,7 +197,8 @@ nav ul li:hover ul {
 }
 .bgheadtext2 {
   flex-grow: 0;
-  width: 437px;
+  text-align: left;
+  width: 100%;
 }
 .headdivider {
   height: 0;
@@ -346,13 +359,14 @@ nav ul li:hover ul {
   padding-bottom: 8px;
 }
 .status {
+  width: 140px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .friendavatar {
-  width: 70px;
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -471,7 +485,6 @@ nav ul li:hover ul {
 .currgame {
   margin-top: -10px;
   font-size: 11px;
-  align-self: flex-start;
 }
 
 .currgame p a {
@@ -530,12 +543,8 @@ ion-icon {
   padding: 12px;
   margin: 8px;
   border-radius: 4px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(79, 79, 79),
-    rgb(44, 44, 44)
-  );
-}
+  background-color: #3a3a3a;}
+
 .headericonused {
   color: #696969;
   height: 28px;
@@ -577,6 +586,7 @@ ion-icon {
   width: 205px;
 }
 .badge .eventhead {
+  color: #fff;
   box-sizing: content-box;
   font-size: 22px;
   margin-top: -80px;
@@ -658,7 +668,7 @@ ion-icon {
   background-image: url(../images/HadesWallpaper.png);
 }
 .close {
-  margin: 0 0 0 320px;
+  margin: 0 0 0 350px;
   height: 30px;
   width: 30px;
   display: flex;
@@ -702,6 +712,7 @@ ion-icon {
   width: 30px;
 }
 .daysuntilbox {
+  color: #fff;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
@@ -738,6 +749,7 @@ ion-icon {
 }
 
 .angebotbox {
+  color: white;
   border-radius: 4px;
   display: flex;
   height: 33px;
@@ -746,6 +758,7 @@ ion-icon {
   box-shadow: 0.5px 0.5px 2px 1px rgba(16, 16, 16, 0.8);
 }
 .angebotbox .prozentbox {
+  color: white;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   border-radius: 4px 0 0 4px;
